@@ -1,0 +1,25 @@
+/* --------------MEDIA QUERIES {SMALL DEVICES}-----------  */
+@media screen and (max-width: 600px) {
+  .experience_content {
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0 1rem 2.5rem;
+  }
+  .experience_container {
+    padding: 1rem 0 1rem 1rem;
+  }
+  .h-3 {
+    padding: 0 2rem 0 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .experience_container {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .experience_content {
+    padding: 0;
+  }
+}

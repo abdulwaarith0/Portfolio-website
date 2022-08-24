@@ -1,0 +1,58 @@
+@media screen and (max-width: 2560px) {
+  .about_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about_me {
+    width: 70%;
+    aspect-ratio: 1/1;
+    place-content: center;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .about_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about_me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    place-content: center;
+  }
+}
+
+
+@media screen and (max-width: 1024px) { 
+  .about_container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .about_me {
+    width: 60%;
+    margin: 2rem auto 4rem;
+    aspect-ratio: 1/1;
+    place-content: center;
+  }
+  .about_content {
+    text-align: center;
+  }
+}
+
+/* --------------MEDIA QUERIES {SMALL DEVICES}-----------  */
+@media screen and (max-width: 600px) {
+  .about_me {
+    width: 80%;
+    margin: 1rem auto 1rem;
+    aspect-ratio: 1/1;
+    place-content: center;
+  }
+  
+  .about_cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .about_content  {
+    margin: 1rem 0 1rem;
+    text-align: center;
+  }
+}
